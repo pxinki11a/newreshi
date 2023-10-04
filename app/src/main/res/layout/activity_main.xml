@@ -43,7 +43,7 @@
         android:hint="0"
         android:text="0"
         android:textAlignment="center"
-        android:textColor="@color/design_default_color_primary_variant"
+        android:textColor="#8BC34A"
         android:textSize="48sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtViewRightLabel" />
@@ -112,6 +112,7 @@
         android:onClick="onClickStart"
         android:text="СТАРТ"
         android:textSize="24sp"
+        app:backgroundTint="#9C27B0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
